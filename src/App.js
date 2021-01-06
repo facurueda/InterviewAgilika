@@ -1,21 +1,34 @@
 import { useState } from "react";
 import "./App.css";
 import GuiInterface from "./components/GuiInterface";
+import ModalSizeParking from "./components/ModalSizeParking";
 import ParkedVehicles from "./components/ParkedVehicles";
 import QueueVehicles from "./components/QueueVehicles";
 
 function App() {
       const [freeSpaces, setFreeSpaces] = useState({
-            1: 1,
-            2: 1,
-            3: 1,
+            1: 5,
+            2: 5,
+            3: 5,
       });
+
+      const setParkingSize = (input) => {
+            setFreeSpaces(
+                  input
+            )
+      }
 
       const [vehicleParked, setVehicleParked] = useState([]);
 
       const [vehicleQueue, setVehicleQueue] = useState([]);
 
       const [id, setId] = useState(0);
+
+      const [modalShow, setModalShow] = useState(true);
+
+      const modalClose = () => {
+            setModalShow(false);
+      };
 
       const addVehicle = (e) => {
             while (e.parked < 4) {
@@ -51,7 +64,7 @@ function App() {
             } else {
                   e.parked = e.size;
                   e.queue = true;
-                  return (setVehicleQueue([...vehicleQueue, e]), setId(id + 1))
+                  return setVehicleQueue([...vehicleQueue, e]), setId(id + 1);
             }
       };
 
@@ -83,6 +96,11 @@ function App() {
 
       return (
             <div className="App container-fluid">
+                  <ModalSizeParking
+                        modalShow={modalShow}
+                        modalClose={modalClose}
+                        setParkingSize={setParkingSize}
+                  />
                   <div className="row parking-container">
                         <section className="GUI-interface col-2">
                               <GuiInterface
