@@ -31,6 +31,10 @@ function App() {
       };
 
       const addVehicle = (e) => {
+            if(!e.queue && vehicleQueue.length > 0){
+                  e.queue = true;
+                  return setVehicleQueue([...vehicleQueue, e]), setId(id + 1);
+            }
             while (e.parked < 4) {
                   if (freeSpaces[e.parked] > 0) {
                         if (e.queue) {

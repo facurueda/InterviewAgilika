@@ -11,12 +11,16 @@ const ParkedVehicles = (props) => {
                         {vehicleParked.map((vehicles, index) => {
                               return (
                                     <div className="vehicle">
+{                                          console.log(vehicles)}
                                           <img
                                                 src={vehicles.img}
                                                 alt="vehicle-img"
                                           />
                                           <label className="vehicle-name">
                                                 {vehicles.name}
+                                          </label>
+                                          <label className="vehicle-name">
+                                                Parking Size {vehicles.parked}
                                           </label>
                                           <button
                                                 className='button-delete-vehicle-parked'
