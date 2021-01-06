@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/InterviewAgilika/static/css/main.438b9265.chunk.css",
+    "main.js": "/InterviewAgilika/static/js/main.a8e76eb5.chunk.js",
+    "main.js.map": "/InterviewAgilika/static/js/main.a8e76eb5.chunk.js.map",
+    "runtime-main.js": "/InterviewAgilika/static/js/runtime-main.4fdf2f5d.js",
+    "runtime-main.js.map": "/InterviewAgilika/static/js/runtime-main.4fdf2f5d.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/InterviewAgilika/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.53e24abb.chunk.js": "/InterviewAgilika/static/js/2.53e24abb.chunk.js",
+    "static/js/2.53e24abb.chunk.js.map": "/InterviewAgilika/static/js/2.53e24abb.chunk.js.map",
+    "static/js/3.28760da5.chunk.js": "/InterviewAgilika/static/js/3.28760da5.chunk.js",
+    "static/js/3.28760da5.chunk.js.map": "/InterviewAgilika/static/js/3.28760da5.chunk.js.map",
+    "index.html": "/InterviewAgilika/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/InterviewAgilika/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.438b9265.chunk.css.map": "/InterviewAgilika/static/css/main.438b9265.chunk.css.map",
+    "static/js/2.53e24abb.chunk.js.LICENSE.txt": "/InterviewAgilika/static/js/2.53e24abb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fdf2f5d.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.53e24abb.chunk.js",
+    "static/css/main.438b9265.chunk.css",
+    "static/js/main.a8e76eb5.chunk.js"
+  ]
+}
