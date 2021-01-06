@@ -1,0 +1,12 @@
+.queue-title{
+      font-size: 35px;
+      font-family: monospace;
+      text-align: center;
+      text-decoration: underline;
+      margin-top: 25px;
+      margin-bottom: 25px;
+}
+
+.queue-button{
+      width: 50% !important;
+}

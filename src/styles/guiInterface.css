@@ -1,0 +1,48 @@
+.guiContainer {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+}
+.buttons {
+      display: flex;
+      flex-direction: column;
+}
+
+.buttonToAdd {
+      width: 85%;
+      align-self: center;
+      margin-top: 50px;
+      margin-bottom: 25px;
+      border: none;
+      border-radius: 25px;
+      height: 50px;
+      background-color: rgb(82, 137, 255);
+      transition: .4s;
+      outline: none !important;
+      font-weight: 500;
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.buttonToAdd:hover{
+      background-color: rgb(182, 205, 255);
+      transition: .4s;
+}
+
+.freeSpaces {
+      display: flex;
+      flex-direction: column;
+      margin-top: 150px;
+}
+
+.freeSpaces > label {
+      text-align: center;
+      font-size: 25px;
+      font-family: monospace;
+}
+
+.title{
+      font-size: 35px !important;
+      margin-bottom: 25px;
+      text-decoration: underline;
+}

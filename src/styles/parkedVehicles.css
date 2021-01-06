@@ -1,0 +1,49 @@
+.parked-container {
+      display: flex;
+      flex-direction: column;
+}
+
+.parked-title{
+      font-size: 50px;
+      font-family: monospace;
+      text-align: center;
+      text-decoration: underline;
+      margin-top: 50px;
+      margin-bottom: 50px;
+}
+
+.parked-vehicles-container {
+      display: flex;
+      flex-wrap: wrap;
+      place-content: space-around;
+}
+
+.vehicle{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.vehicle-name{
+      font-size: 20px;
+      font-weight: 500;
+}
+.button-delete-vehicle-parked{
+      width: 85%;
+      align-self: center;
+      border: none;
+      border-radius: 25px;
+      height: 35px;
+      background-color: rgb(255, 46, 81);
+      transition: .4s;
+      outline: none !important;
+      font-weight: 500;
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button-delete-vehicle-parked:hover{
+      background-color: rgb(255, 116, 139);
+      transition: .4s;
+}
